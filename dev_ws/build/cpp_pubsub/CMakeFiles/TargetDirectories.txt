@@ -1,0 +1,11 @@
+/home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/build/cpp_pubsub/CMakeFiles/uninstall.dir
+/home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/build/cpp_pubsub/CMakeFiles/cpp_pubsub_uninstall.dir
+/home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/build/cpp_pubsub/CMakeFiles/talker.dir
+/home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/build/cpp_pubsub/CMakeFiles/listener.dir
+/home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/build/cpp_pubsub/CMakeFiles/test.dir
+/home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/build/cpp_pubsub/CMakeFiles/edit_cache.dir
+/home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/build/cpp_pubsub/CMakeFiles/rebuild_cache.dir
+/home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/build/cpp_pubsub/CMakeFiles/list_install_components.dir
+/home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/build/cpp_pubsub/CMakeFiles/install.dir
+/home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/build/cpp_pubsub/CMakeFiles/install/local.dir
+/home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/build/cpp_pubsub/CMakeFiles/install/strip.dir

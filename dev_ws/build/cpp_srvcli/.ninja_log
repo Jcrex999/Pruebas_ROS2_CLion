@@ -1,0 +1,5 @@
+# ninja log v5
+0	2279	1740927016880176644	CMakeFiles/server.dir/src/add_two_ints_server.cpp.o	6be17c3ed9110c71
+2280	2371	1740927016972178279	server	79a0872f33420944
+0	2392	1740927016992178635	CMakeFiles/client.dir/src/add_two_ints_client.cpp.o	1d753a3220c48df8
+2392	2477	1740927017076180127	client	e5cdc80180afd2

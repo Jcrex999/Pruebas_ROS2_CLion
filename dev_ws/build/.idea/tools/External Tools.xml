@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="CMake commands script" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/uji/Programas_ROS/Prueba_Clion/dev_ws/build.sh" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/uji/Programas_ROS/Prueba_Clion/dev_ws" />
+    </exec>
+  </tool>
+</toolSet>

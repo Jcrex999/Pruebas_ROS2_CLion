@@ -1,0 +1,11 @@
+/home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/build/cpp_srvcli/CMakeFiles/uninstall.dir
+/home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/build/cpp_srvcli/CMakeFiles/cpp_srvcli_uninstall.dir
+/home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/build/cpp_srvcli/CMakeFiles/server.dir
+/home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/build/cpp_srvcli/CMakeFiles/client.dir
+/home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/build/cpp_srvcli/CMakeFiles/test.dir
+/home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/build/cpp_srvcli/CMakeFiles/edit_cache.dir
+/home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/build/cpp_srvcli/CMakeFiles/rebuild_cache.dir
+/home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/build/cpp_srvcli/CMakeFiles/list_install_components.dir
+/home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/build/cpp_srvcli/CMakeFiles/install.dir
+/home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/build/cpp_srvcli/CMakeFiles/install/local.dir
+/home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/build/cpp_srvcli/CMakeFiles/install/strip.dir

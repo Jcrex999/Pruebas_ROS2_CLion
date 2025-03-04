@@ -1,0 +1,132 @@
+[0.000000] (-) TimerEvent: {}
+[0.000129] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000159] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.005914] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.006554] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.006643] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/build/cpp_pubsub', '--', '-j12', '-l12'], 'cwd': '/home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/build/cpp_pubsub', 'env': OrderedDict([('TERM_SESSION_ID', '30d48960-1d43-4031-b103-2f58d6eb0ff3'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jcrex'), ('LC_TIME', 'es_VE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jcrex/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/jcrex/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/jcrex/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/jcrex'), ('OLDPWD', '/home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('TERMINAL_EMULATOR', 'JetBrains-JediTerm'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/jcrex/.local/share/applications/jetbrains-clion-627744ba-a1de-4388-9fc0-4b89456b93f7.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_VE.UTF-8'), ('MANAGERPID', '1532'), ('SYSTEMD_EXEC_PID', '1696'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '53662'), ('IJ_RESTARTER_LOG', '/home/jcrex/.cache/JetBrains/CLion2024.3/log/restarter.log'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jcrex/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jcrex'), ('JOURNAL_STREAM', '8:30592'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jcrex'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/jcrex/.local/bin:/home/jcrex/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/jcrex/.dotnet/tools:/home/jcrex/.local/share/JetBrains/Toolbox/scripts:/home/jcrex/.lmstudio/bin:/home/jcrex/.lmstudio/bin'), ('SESSION_MANAGER', 'local/jcrex:@/tmp/.ICE-unix/1675,unix/jcrex:/tmp/.ICE-unix/1675'), ('INVOCATION_ID', '2edaf38bd6cc469e989a6ec430be7886'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_VE.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('DESKTOP_STARTUP_ID', 'CLion-restart_TIME14675861'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/jcrex/.cache/dotnet_bundle_extract'), ('LC_TELEPHONE', 'es_VE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.J0Q422'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/jcrex/turtlebot3_ws/install/turtlebot3:/home/jcrex/turtlebot3_ws/install/turtlebot3_teleop:/home/jcrex/turtlebot3_ws/install/turtlebot3_simulations:/home/jcrex/turtlebot3_ws/install/turtlebot3_bringup:/home/jcrex/turtlebot3_ws/install/turtlebot3_node:/home/jcrex/turtlebot3_ws/install/turtlebot3_navigation2:/home/jcrex/turtlebot3_ws/install/turtlebot3_fake_node:/home/jcrex/turtlebot3_ws/install/turtlebot3_example:/home/jcrex/turtlebot3_ws/install/turtlebot3_msgs:/home/jcrex/turtlebot3_ws/install/turtlebot3_gazebo:/home/jcrex/turtlebot3_ws/install/turtlebot3_description:/home/jcrex/turtlebot3_ws/install/turtlebot3_cartographer:/home/jcrex/turtlebot3_ws/install/dynamixel_sdk_examples:/home/jcrex/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/jcrex/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_VE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_VE.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_VE.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/build/cpp_pubsub'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jcrex/turtlebot3_ws/build/turtlebot3_teleop:/home/jcrex/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/jcrex/turtlebot3_ws/build/turtlebot3_example:/home/jcrex/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/jcrex/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/jcrex/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_VE.UTF-8'), ('LC_PAPER', 'es_VE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jcrex/turtlebot3_ws/install/turtlebot3:/home/jcrex/turtlebot3_ws/install/turtlebot3_simulations:/home/jcrex/turtlebot3_ws/install/turtlebot3_bringup:/home/jcrex/turtlebot3_ws/install/turtlebot3_node:/home/jcrex/turtlebot3_ws/install/turtlebot3_navigation2:/home/jcrex/turtlebot3_ws/install/turtlebot3_fake_node:/home/jcrex/turtlebot3_ws/install/turtlebot3_msgs:/home/jcrex/turtlebot3_ws/install/turtlebot3_gazebo:/home/jcrex/turtlebot3_ws/install/turtlebot3_description:/home/jcrex/turtlebot3_ws/install/turtlebot3_cartographer:/home/jcrex/turtlebot3_ws/install/dynamixel_sdk_examples:/home/jcrex/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/jcrex/turtlebot3_ws/install/dynamixel_sdk:/home/jcrex/turtlebot3_ws/install/turtlebot3_teleop:/home/jcrex/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.015323] (cpp_pubsub) StdoutLine: {'line': b'\n'}
+[0.015428] (cpp_pubsub) StdoutLine: {'line': b'[0/1] Re-running CMake...\x1b[K\n'}
+[0.025107] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099566] (-) TimerEvent: {}
+[0.112791] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.156267] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.161972] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.170284] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.183853] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.197759] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199699] (-) TimerEvent: {}
+[0.239765] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.242978] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299812] (-) TimerEvent: {}
+[0.307057] (cpp_pubsub) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.326990] (cpp_pubsub) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.353999] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.363975] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.399914] (-) TimerEvent: {}
+[0.402851] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.403029] (cpp_pubsub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.436620] (cpp_pubsub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.437268] (cpp_pubsub) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.484075] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.500008] (-) TimerEvent: {}
+[0.540438] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.540577] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.540618] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.541042] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.541319] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.541362] (cpp_pubsub) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.541754] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.542268] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.547783] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[0.552943] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/build/cpp_pubsub\n'}
+[0.559389] (cpp_pubsub) StdoutLine: {'line': b'\n'}
+[0.559718] (cpp_pubsub) StdoutLine: {'line': b'[0/4] Building CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[K\n'}
+[0.600152] (-) TimerEvent: {}
+[0.700484] (-) TimerEvent: {}
+[0.800786] (-) TimerEvent: {}
+[0.901149] (-) TimerEvent: {}
+[1.001427] (-) TimerEvent: {}
+[1.101695] (-) TimerEvent: {}
+[1.202097] (-) TimerEvent: {}
+[1.302382] (-) TimerEvent: {}
+[1.402669] (-) TimerEvent: {}
+[1.502966] (-) TimerEvent: {}
+[1.603323] (-) TimerEvent: {}
+[1.703678] (-) TimerEvent: {}
+[1.803964] (-) TimerEvent: {}
+[1.904306] (-) TimerEvent: {}
+[2.004601] (-) TimerEvent: {}
+[2.104896] (-) TimerEvent: {}
+[2.205173] (-) TimerEvent: {}
+[2.305528] (-) TimerEvent: {}
+[2.405824] (-) TimerEvent: {}
+[2.506104] (-) TimerEvent: {}
+[2.606410] (-) TimerEvent: {}
+[2.706686] (-) TimerEvent: {}
+[2.806970] (-) TimerEvent: {}
+[2.907297] (-) TimerEvent: {}
+[3.007626] (-) TimerEvent: {}
+[3.107943] (-) TimerEvent: {}
+[3.208269] (-) TimerEvent: {}
+[3.308610] (-) TimerEvent: {}
+[3.408933] (-) TimerEvent: {}
+[3.509265] (-) TimerEvent: {}
+[3.531553] (cpp_pubsub) StdoutLine: {'line': b'[0/4] Building CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[K\n'}
+[3.532253] (cpp_pubsub) StdoutLine: {'line': b'[1/4] Building CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[K\n'}
+[3.609433] (-) TimerEvent: {}
+[3.658319] (cpp_pubsub) StdoutLine: {'line': b'[1/4] Linking CXX executable talker\x1b[K\n'}
+[3.709604] (-) TimerEvent: {}
+[3.809863] (-) TimerEvent: {}
+[3.910151] (-) TimerEvent: {}
+[4.010445] (-) TimerEvent: {}
+[4.110790] (-) TimerEvent: {}
+[4.211134] (-) TimerEvent: {}
+[4.311462] (-) TimerEvent: {}
+[4.411738] (-) TimerEvent: {}
+[4.512067] (-) TimerEvent: {}
+[4.612399] (-) TimerEvent: {}
+[4.712712] (-) TimerEvent: {}
+[4.813037] (-) TimerEvent: {}
+[4.913312] (-) TimerEvent: {}
+[5.013659] (-) TimerEvent: {}
+[5.113955] (-) TimerEvent: {}
+[5.214310] (-) TimerEvent: {}
+[5.314577] (-) TimerEvent: {}
+[5.414827] (-) TimerEvent: {}
+[5.515153] (-) TimerEvent: {}
+[5.615475] (-) TimerEvent: {}
+[5.715751] (-) TimerEvent: {}
+[5.816090] (-) TimerEvent: {}
+[5.916431] (-) TimerEvent: {}
+[5.926348] (cpp_pubsub) StdoutLine: {'line': b'[2/4] Linking CXX executable talker\x1b[K\n'}
+[5.926526] (cpp_pubsub) StdoutLine: {'line': b'[3/4] Building CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[K\n'}
+[6.016550] (-) TimerEvent: {}
+[6.116885] (-) TimerEvent: {}
+[6.142090] (cpp_pubsub) StdoutLine: {'line': b'[3/4] Linking CXX executable listener\x1b[K\n'}
+[6.142240] (cpp_pubsub) StdoutLine: {'line': b'[4/4] Linking CXX executable listener\x1b[K\n'}
+[6.143713] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[6.144137] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[6.155816] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/build/cpp_pubsub'], 'cwd': '/home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/build/cpp_pubsub', 'env': OrderedDict([('TERM_SESSION_ID', '30d48960-1d43-4031-b103-2f58d6eb0ff3'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jcrex'), ('LC_TIME', 'es_VE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jcrex/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/jcrex/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/jcrex/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/jcrex'), ('OLDPWD', '/home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('TERMINAL_EMULATOR', 'JetBrains-JediTerm'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/jcrex/.local/share/applications/jetbrains-clion-627744ba-a1de-4388-9fc0-4b89456b93f7.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_VE.UTF-8'), ('MANAGERPID', '1532'), ('SYSTEMD_EXEC_PID', '1696'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '53662'), ('IJ_RESTARTER_LOG', '/home/jcrex/.cache/JetBrains/CLion2024.3/log/restarter.log'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jcrex/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jcrex'), ('JOURNAL_STREAM', '8:30592'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jcrex'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/jcrex/.local/bin:/home/jcrex/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/jcrex/.dotnet/tools:/home/jcrex/.local/share/JetBrains/Toolbox/scripts:/home/jcrex/.lmstudio/bin:/home/jcrex/.lmstudio/bin'), ('SESSION_MANAGER', 'local/jcrex:@/tmp/.ICE-unix/1675,unix/jcrex:/tmp/.ICE-unix/1675'), ('INVOCATION_ID', '2edaf38bd6cc469e989a6ec430be7886'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_VE.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('DESKTOP_STARTUP_ID', 'CLion-restart_TIME14675861'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/jcrex/.cache/dotnet_bundle_extract'), ('LC_TELEPHONE', 'es_VE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.J0Q422'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/jcrex/turtlebot3_ws/install/turtlebot3:/home/jcrex/turtlebot3_ws/install/turtlebot3_teleop:/home/jcrex/turtlebot3_ws/install/turtlebot3_simulations:/home/jcrex/turtlebot3_ws/install/turtlebot3_bringup:/home/jcrex/turtlebot3_ws/install/turtlebot3_node:/home/jcrex/turtlebot3_ws/install/turtlebot3_navigation2:/home/jcrex/turtlebot3_ws/install/turtlebot3_fake_node:/home/jcrex/turtlebot3_ws/install/turtlebot3_example:/home/jcrex/turtlebot3_ws/install/turtlebot3_msgs:/home/jcrex/turtlebot3_ws/install/turtlebot3_gazebo:/home/jcrex/turtlebot3_ws/install/turtlebot3_description:/home/jcrex/turtlebot3_ws/install/turtlebot3_cartographer:/home/jcrex/turtlebot3_ws/install/dynamixel_sdk_examples:/home/jcrex/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/jcrex/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_VE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_VE.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_VE.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/build/cpp_pubsub'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jcrex/turtlebot3_ws/build/turtlebot3_teleop:/home/jcrex/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/jcrex/turtlebot3_ws/build/turtlebot3_example:/home/jcrex/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/jcrex/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/jcrex/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_VE.UTF-8'), ('LC_PAPER', 'es_VE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jcrex/turtlebot3_ws/install/turtlebot3:/home/jcrex/turtlebot3_ws/install/turtlebot3_simulations:/home/jcrex/turtlebot3_ws/install/turtlebot3_bringup:/home/jcrex/turtlebot3_ws/install/turtlebot3_node:/home/jcrex/turtlebot3_ws/install/turtlebot3_navigation2:/home/jcrex/turtlebot3_ws/install/turtlebot3_fake_node:/home/jcrex/turtlebot3_ws/install/turtlebot3_msgs:/home/jcrex/turtlebot3_ws/install/turtlebot3_gazebo:/home/jcrex/turtlebot3_ws/install/turtlebot3_description:/home/jcrex/turtlebot3_ws/install/turtlebot3_cartographer:/home/jcrex/turtlebot3_ws/install/dynamixel_sdk_examples:/home/jcrex/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/jcrex/turtlebot3_ws/install/dynamixel_sdk:/home/jcrex/turtlebot3_ws/install/turtlebot3_teleop:/home/jcrex/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[6.160280] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.160366] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[6.161097] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""\n'}
+[6.161137] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[6.163186] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""\n'}
+[6.163301] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[6.163373] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[6.163413] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[6.163450] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[6.163487] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[6.163523] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[6.163559] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[6.163615] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[6.163650] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[6.163687] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[6.163720] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[6.163757] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[6.163791] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[6.163824] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[6.163857] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[6.164684] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[6.174600] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[6.175180] (-) EventReactorShutdown: {}

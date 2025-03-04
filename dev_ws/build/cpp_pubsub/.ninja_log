@@ -1,0 +1,6 @@
+# ninja log v5
+0	543	1740927014080126884	build.ninja	552ad69c9c0aa140
+1	2972	1740924134594752923	CMakeFiles/talker.dir/src/publisher_member_function.cpp.o	59d53bb282301190
+2	150	1740925082764631348	talker	9746663c2298412c
+0	5367	1740924136982797377	CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o	bba3fa998a9a8ff4
+2	261	1740925082872633399	listener	dc3a8fc601a85751

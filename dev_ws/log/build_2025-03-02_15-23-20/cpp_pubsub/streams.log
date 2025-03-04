@@ -1,0 +1,24 @@
+[0.008s] Invoking command in '/home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jcrex/turtlebot3_ws/install/turtlebot3_teleop:/home/jcrex/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/build/cpp_pubsub -- -j12 -l12
+[0.017s] ninja: no work to do.
+[0.018s] Invoked command in '/home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jcrex/turtlebot3_ws/install/turtlebot3_teleop:/home/jcrex/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/build/cpp_pubsub -- -j12 -l12
+[0.024s] Invoking command in '/home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jcrex/turtlebot3_ws/install/turtlebot3_teleop:/home/jcrex/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/build/cpp_pubsub
+[0.029s] -- Install configuration: ""
+[0.029s] -- Execute custom install script
+[0.029s] -- Up-to-date symlink: /home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[0.029s] -- Up-to-date symlink: /home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[0.030s] -- Up-to-date symlink: /home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[0.030s] -- Up-to-date symlink: /home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[0.030s] -- Up-to-date symlink: /home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[0.030s] -- Up-to-date symlink: /home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[0.030s] -- Up-to-date symlink: /home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[0.030s] -- Up-to-date symlink: /home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[0.030s] -- Up-to-date symlink: /home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[0.030s] -- Up-to-date symlink: /home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[0.030s] -- Up-to-date symlink: /home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[0.030s] -- Up-to-date symlink: /home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[0.030s] -- Symlinking: /home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[0.036s] -- Up-to-date symlink: /home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[0.036s] -- Up-to-date symlink: /home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[0.036s] -- Up-to-date symlink: /home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[0.036s] -- Up-to-date symlink: /home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[0.038s] Invoked command in '/home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jcrex/turtlebot3_ws/install/turtlebot3_teleop:/home/jcrex/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/build/cpp_pubsub

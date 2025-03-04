@@ -1,0 +1,1 @@
+/home/jcrex/uji/Programas_ROS/Prueba_Clion/dev_ws/build/cpp_pubsub/ament_cmake_environment_hooks/local_setup.zsh
